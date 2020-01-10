@@ -1,13 +1,13 @@
 export enum OsType {
-    Windows = 1,
-    Linux ,
-    Mac
-};
+  Windows = "win32",
+  Linux = "linux",
+  Mac = "darwin"
+}
 
-export enum SettingType{
-    Settings = 1,
-    Launch ,
-    KeyBindings,
-    Locale,
-    Extensions
-};
+export enum SettingType {
+  Settings = 1,
+  Launch,
+  KeyBindings,
+  Locale,
+  Extensions
+}
